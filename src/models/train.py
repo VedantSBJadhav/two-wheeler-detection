@@ -16,7 +16,8 @@ def train_model():
         patience=5,
         save=True,
         plots=True,
-        device=0
+        device=0,
+        workers=0
     )
     
     print(f'Training complete. Results: {results.results_dict}')
